@@ -153,6 +153,10 @@ const burgerMenuEl = document.querySelector(".header__menu")
 
 menuLinkEls.forEach(menuLinkEl => {
     menuLinkEl.addEventListener("click", (e) => {
+
+        console.log("!!!!")
+
+        
         let menuItemEl = e.target.closest(".header__menu-item");
         let hasSubmenu = menuItemEl.childElementCount === 3
         if (!hasSubmenu) {

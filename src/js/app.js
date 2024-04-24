@@ -264,7 +264,6 @@ document.querySelectorAll("input[name='phone']").forEach(inputElement => {
     inputElement.addEventListener("input", e => {e.target.value.length === 2 && (e.target.value = "")})
 })
 
-
 // yandex map
 
 function init() {
